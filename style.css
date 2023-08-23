@@ -1,0 +1,66 @@
+*{box-sizing: border-box;}
+
+body {
+    background-color: #2b2b2b !important;
+    margin: 0;
+    padding: 0;
+  }
+
+  @font-face {
+    font-family: FF1;
+    src: url(fonts/WorkSans/static/WorkSans-Bold.ttf);
+  }
+  @font-face {
+    font-family: FF2;
+    src: url(fonts/WorkSans/static/WorkSans-Regular.ttf);
+  }
+  .bt1 {
+    display: flex;
+    height: 60px;
+    padding: 0px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 20px;
+    background: var(--call-to-action, #A259FF);
+    color: #FFF;
+    border: none;
+  }
+  .h-1 {
+    color: var(--white, #FFF);
+    font-family: FF1;
+    font-size: 51px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%;
+    text-transform: capitalize;
+  }
+  .p1 {
+    color: var(--white, #FFF);
+    font-family: FF2;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; 
+    text-transform: capitalize;
+  }
+  .inp1 , .inp2 , .inp3 , .inp4 {
+    border-radius: 20px;
+    border: 1px solid var(--caption-label-text, #858584);
+    background: var(--text, #FFF);
+    height: 46px;
+    padding-left: 40px;
+  }
+  .bt2 {
+    border-radius: 20px;
+    background: var(--call-to-action, #A259FF);
+    height: 46px;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: FF2;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; 
+  }
