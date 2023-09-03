@@ -14,6 +14,63 @@ body {
     font-family: FF2;
     src: url(fonts/WorkSans/static/WorkSans-Regular.ttf);
   }
+  @font-face {
+    font-family: FF3;
+    src: url(fonts/WorkSans/static/WorkSans-Bold.ttf);
+  }
+  @font-face {
+    font-family: FF4;
+    src: url(fonts/WorkSans/static/WorkSans-Regular.ttf);
+  }
+  @media screen and (max-width: 768px) {
+    .p1 {
+      color: var(--white, #FFF) !important;
+      font-family: Work Sans !important;
+      font-size: 21px !important;
+      font-style: normal !important;
+      font-weight: 400 !important;
+      line-height: 140% !important;
+      text-align: center !important;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .h-1 {
+      text-align: center !important;
+      color: var(--white, #FFF) !important;
+      font-family: FF1 !important;
+      font-size: 45px !important;
+      font-style: normal !important;
+      font-weight: 600 !important;
+      line-height: 120% !important; 
+      text-transform: capitalize !important;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .fm1 {
+        display: flex !important;
+        justify-content: center !important;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .box1 , .p3 , .p4 , .logobox , .p6 , .p7 {
+      padding-left: 20px !important;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .ft1 {
+      margin-top: 40px !important;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .p5 {
+      margin-left: 30px !important;
+    }
+  }
+  .img1 {
+    position: absolute;
+    left: 43px;
+    top: 13px;
+  }
   .bt1 {
     display: flex;
     height: 60px;
@@ -44,12 +101,37 @@ body {
     line-height: 160%; 
     text-transform: capitalize;
   }
+  .p2 , .p6 {
+  color: #FFF;
+  font-family: FF3;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; 
+  text-transform: capitalize;
+  }
+  .p3 , .p4 , .p7 {
+  color: #CCC;
+  font-family: FF4;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  }
+  .p5 {
+  color: #CCC;
+  font-family: Work Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%; 
+  }
   .inp1 , .inp2 , .inp3 , .inp4 {
     border-radius: 20px;
     border: 1px solid var(--caption-label-text, #858584);
     background: var(--text, #FFF);
     height: 46px;
-    padding-left: 40px;
+    padding-left: 60px;
   }
   .bt2 {
     border-radius: 20px;
@@ -63,4 +145,39 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: 140%; 
+  }
+  .bt3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: FF4;
+    height: 50px;
+    padding: 0px 30px;
+    gap: 12px;
+    border-radius: 20px;
+    background: var(--call-to-action, #A259FF);
+    color: #FFF;
+    border: none;
+  }
+  .inp1 {
+  border: none;
+  border-radius: 20px;
+  background: var(--text, #FFF);
+  }
+  .bt1 {
+  height: 60px;
+  border-radius: 20px;
+  background: var(--call-to-action, #A259FF);
+  width: 179px;
+  }
+  .hr1 {
+  width: 1190px !important;
+  height: 2px;
+  background-color: #858584;
+  }
+  .hr2 {  
+    margin-left: 10%;
+    width: 350px !important;
+    height: 2px;
+    background-color: #858584;
   }
