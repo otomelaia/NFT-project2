@@ -120,7 +120,7 @@ body {
   }
   .p5 {
   color: #CCC;
-  font-family: Work Sans;
+  font-family: FF4;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -181,3 +181,13 @@ body {
     height: 2px;
     background-color: #858584;
   }
+
+  .nav-link {
+    color: #FFF !important;; 
+    text-align: center; 
+    font-family: FF2;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    }
